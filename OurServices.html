@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,13 +17,19 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
       <a class="navbar-brand" href="MainPage.html"><h1>
         <i class="fa fa-heartbeat" aria-hidden="true" style="color:red"></i>
         E-Doctor</h1>
-
       </a>
-      <ul class="nav justify-content-end">
+<button class="navbar-toggler" type="button"
+data-toggle="collapse" data-target="#myTogglerNav"
+aria-controls="myTogglerNav"
+aria-expended="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+      <ul class="nav justify-content-end collapse navbar-collapse navbar-nav" id="myTogglerNav">
         <li class="nav-item">
           <a class="nav-link active" href="SeeADoctor.html" style="color:black">See a Doctor</a>
         </li>
@@ -36,35 +43,42 @@
           <a class="nav-link" href="ContactUs.html" style="color:black">Contact Us</a>
         </li>
       </ul>
-  </nav>
+
     </nav>
+
+
+<!--Our Services-->
 
 <!--Header image-->
 
 <img id="image" src="back.png" class="img-fluid" alt="Responsive image">
 
-<!--Main page-->
+<div class="jumbotron p-0">
+
 <div class="container">
   <div class="row">
     <div class="col col-example py-3 px-lg-5">
-      <p class="h2">Children & Family</p><img src="https://careonlocation.com/wp-content/uploads/2018/02/180215_MomChildTabletDoctor_1600x729-1024x467.jpg"  class="img-fluid" >
+      <p class="h2">Children & Family</p><img src="https://www.chifranciscan.org/content/chi-franciscan/en/health-care-services/virtual-care/jcr:content/hero/photo_band_copy.img.768.high.jpg/1584658037601.jpg"  class="img-fluid" >
       <p>Speak with a pediatrician when you have conditions like the flu, pink eye, rashes, and much more</p></div>
 
     <div class="col col-example py-3 px-lg-5">
-      <p class="h2">Bechavioral Health</p><img src="https://siliconcanals.com/wp-content/uploads/2020/04/online-doctor-consultations.jpg"  class="img-fluid">
+      <p class="h2">Behavioral Health</p><img src="https://floridaindependent.com/wp-content/uploads/2018/12/What-is-an-Online-Therapist-and-Is-it-Right-For-You.jpg"  class="img-fluid">
       <p>Talk to a therapist or psychiatrist when you’re feeling anxious, stressed, down, or not like yourself</p></div>
 
     <div class="w-100"></div>
 
   <div class="col col-example py-3 px-lg-5">
-    <p class="h2">Urgent Care<img src="https://innerbody.imgix.net/best-online-doctor-hero.png?w=800&auto=format" class="img-fluid">
+    <p class="h2">Urgent Care</p><img src="https://www.todaysparent.com/wp-content/uploads/2020/08/online-doctor-visit-for-kids-1280x720.jpg" class="img-fluid">
     <p></p>Speak with a family doctor when you have conditions like the flu, sinus infections, stomachaches, and much more</div>
 
     <div class="col col-example py-3 px-lg-5">
-      <p class="h2">Medical Experts</p><img src="https://www.howtogeek.com/thumbcache/2/200/6efd724ee6a1526f5650d3b494c35966/wp-content/uploads/2020/03/woman-talking-to-doctor-on-laptop.jpg" class="img-fluid">
+      <p class="h2">Medical Experts</p><img src="https://uchealth-wp-uploads.s3.amazonaws.com/wp-content/uploads/sites/6/2020/03/31061115/Virtual-Visit-lead-photo-tiny.jpg" class="img-fluid">
       <p>Get an expert medical opinion, advice and answers on a medical condition, diagnosis, treatment option, or surgery from a world-renowned specialist</p></div>
   </div>
 </div>
+</div>
+
+</body>
 
     <!-- Footer -->
   <footer class="page-footer font-small stylish-color-dark pt-4">
@@ -87,8 +101,6 @@
           <i class="fas fa-envelope mr-3" style="color:red"></i> info@example.com</p>
         <p>
           <i class="fas fa-phone mr-3" style="color:red"></i> + 01 234 567 88</p>
-        <p>
-          <i class="fas fa-print mr-3" style="color:red"></i> + 01 234 567 89</p>
         </div>
 
         <hr class="clearfix w-500 d-md-none">
@@ -119,7 +131,7 @@
     </ul>
 
     <div class="footer-copyright text-center py-3" >© 2020 Copyright:
-      <a href="https://e-doctor.com/"> E-Doctor.com</a>
+      <a href="MainPage.html">E-Doctor.com</a>
     </div>
   </footer>
 
