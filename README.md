@@ -1,7 +1,7 @@
 # E-Doctor
-This is a capstone project I made in a college
+This is a capstone project I made in college.
 
-Online doctor consultations become more popular these days. Virtual care may effectively used to treat common problems such as cold, urinary tract infections, flu, headaches, etc. In this application virtual visits take place between patients and doctors via video and audio connectivity. It means that patient can interact with specialist from home or any other place convenient to him. No more sitting in a waiting room full of germs and sick people which is also time convenient. 
+Online doctor consultations become more popular these days. Virtual care may effectively used to treat common problems such as cold, urinary tract infections, flu, headaches, etc. In this application virtual visits take place between patients and doctors via video and audio connectivity. It means that patient can interact with specialist from home or any other place convenient to him. 
 
 I created the first page of E-Doctor website. It is fully responsive and has very similar design with the above Bootstrap theme I chose for the prototype. 
 For the development of my project I am using Twitter Bootstrap 4, HTML, and CSS.
