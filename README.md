@@ -1,4 +1,7 @@
 # E-Doctor
+
+Demo: https://drive.google.com/file/d/1OSzrF3Z1JU9rnw1pBlu0Iht5lT5Qe-ne/view?usp=sharing
+
 This is a capstone project I made in college.
 It is fully responsive and has very similar design with the Bootstrap theme I chose for the prototype. 
 For the development of my project I used Twitter Bootstrap 4, HTML, and CSS.
@@ -18,4 +21,3 @@ I added two more pages to my project – See a Doctor and Contact Us page. The b
 I added jumbotron unit to all pages to make the background pop. 
 
 
-https://drive.google.com/file/d/1OSzrF3Z1JU9rnw1pBlu0Iht5lT5Qe-ne/view?usp=sharing
